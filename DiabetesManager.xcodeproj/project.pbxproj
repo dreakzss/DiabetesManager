@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADD4713B1CD0275F006CCEB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4713A1CD0275F006CCEB3 /* main.m */; };
+		ADD4713E1CD0275F006CCEB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4713D1CD0275F006CCEB3 /* AppDelegate.m */; };
+		ADD471411CD0275F006CCEB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD471401CD0275F006CCEB3 /* ViewController.m */; };
+		ADD471441CD0275F006CCEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD471421CD0275F006CCEB3 /* Main.storyboard */; };
+		ADD471461CD0275F006CCEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD471451CD0275F006CCEB3 /* Assets.xcassets */; };
+		ADD471491CD0275F006CCEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD471471CD0275F006CCEB3 /* LaunchScreen.storyboard */; };
+		ADD471541CD02760006CCEB3 /* DiabetesManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD471531CD02760006CCEB3 /* DiabetesManagerTests.m */; };
+		ADD4715F1CD02760006CCEB3 /* DiabetesManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4715E1CD02760006CCEB3 /* DiabetesManagerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADD471501CD02760006CCEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD4712E1CD0275F006CCEB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD471351CD0275F006CCEB3;
+			remoteInfo = DiabetesManager;
+		};
+		ADD4715B1CD02760006CCEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD4712E1CD0275F006CCEB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD471351CD0275F006CCEB3;
+			remoteInfo = DiabetesManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADD471361CD0275F006CCEB3 /* DiabetesManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiabetesManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD4713A1CD0275F006CCEB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADD4713C1CD0275F006CCEB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADD4713D1CD0275F006CCEB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADD4713F1CD0275F006CCEB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADD471401CD0275F006CCEB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADD471431CD0275F006CCEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADD471451CD0275F006CCEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADD471481CD0275F006CCEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADD4714A1CD0275F006CCEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD4714F1CD02760006CCEB3 /* DiabetesManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiabetesManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD471531CD02760006CCEB3 /* DiabetesManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiabetesManagerTests.m; sourceTree = "<group>"; };
+		ADD471551CD02760006CCEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD4715A1CD02760006CCEB3 /* DiabetesManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiabetesManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD4715E1CD02760006CCEB3 /* DiabetesManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiabetesManagerUITests.m; sourceTree = "<group>"; };
+		ADD471601CD02760006CCEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADD471331CD0275F006CCEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4714C1CD02760006CCEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD471571CD02760006CCEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADD4712D1CD0275F006CCEB3 = {
+			isa = PBXGroup;
+			children = (
+				ADD471381CD0275F006CCEB3 /* DiabetesManager */,
+				ADD471521CD02760006CCEB3 /* DiabetesManagerTests */,
+				ADD4715D1CD02760006CCEB3 /* DiabetesManagerUITests */,
+				ADD471371CD0275F006CCEB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD471371CD0275F006CCEB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD471361CD0275F006CCEB3 /* DiabetesManager.app */,
+				ADD4714F1CD02760006CCEB3 /* DiabetesManagerTests.xctest */,
+				ADD4715A1CD02760006CCEB3 /* DiabetesManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD471381CD0275F006CCEB3 /* DiabetesManager */ = {
+			isa = PBXGroup;
+			children = (
+				ADD4713C1CD0275F006CCEB3 /* AppDelegate.h */,
+				ADD4713D1CD0275F006CCEB3 /* AppDelegate.m */,
+				ADD4713F1CD0275F006CCEB3 /* ViewController.h */,
+				ADD471401CD0275F006CCEB3 /* ViewController.m */,
+				ADD471421CD0275F006CCEB3 /* Main.storyboard */,
+				ADD471451CD0275F006CCEB3 /* Assets.xcassets */,
+				ADD471471CD0275F006CCEB3 /* LaunchScreen.storyboard */,
+				ADD4714A1CD0275F006CCEB3 /* Info.plist */,
+				ADD471391CD0275F006CCEB3 /* Supporting Files */,
+			);
+			path = DiabetesManager;
+			sourceTree = "<group>";
+		};
+		ADD471391CD0275F006CCEB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADD4713A1CD0275F006CCEB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADD471521CD02760006CCEB3 /* DiabetesManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD471531CD02760006CCEB3 /* DiabetesManagerTests.m */,
+				ADD471551CD02760006CCEB3 /* Info.plist */,
+			);
+			path = DiabetesManagerTests;
+			sourceTree = "<group>";
+		};
+		ADD4715D1CD02760006CCEB3 /* DiabetesManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD4715E1CD02760006CCEB3 /* DiabetesManagerUITests.m */,
+				ADD471601CD02760006CCEB3 /* Info.plist */,
+			);
+			path = DiabetesManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADD471351CD0275F006CCEB3 /* DiabetesManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD471631CD02760006CCEB3 /* Build configuration list for PBXNativeTarget "DiabetesManager" */;
+			buildPhases = (
+				ADD471321CD0275F006CCEB3 /* Sources */,
+				ADD471331CD0275F006CCEB3 /* Frameworks */,
+				ADD471341CD0275F006CCEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiabetesManager;
+			productName = DiabetesManager;
+			productReference = ADD471361CD0275F006CCEB3 /* DiabetesManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD4714E1CD02760006CCEB3 /* DiabetesManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD471661CD02760006CCEB3 /* Build configuration list for PBXNativeTarget "DiabetesManagerTests" */;
+			buildPhases = (
+				ADD4714B1CD02760006CCEB3 /* Sources */,
+				ADD4714C1CD02760006CCEB3 /* Frameworks */,
+				ADD4714D1CD02760006CCEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD471511CD02760006CCEB3 /* PBXTargetDependency */,
+			);
+			name = DiabetesManagerTests;
+			productName = DiabetesManagerTests;
+			productReference = ADD4714F1CD02760006CCEB3 /* DiabetesManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADD471591CD02760006CCEB3 /* DiabetesManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD471691CD02760006CCEB3 /* Build configuration list for PBXNativeTarget "DiabetesManagerUITests" */;
+			buildPhases = (
+				ADD471561CD02760006CCEB3 /* Sources */,
+				ADD471571CD02760006CCEB3 /* Frameworks */,
+				ADD471581CD02760006CCEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD4715C1CD02760006CCEB3 /* PBXTargetDependency */,
+			);
+			name = DiabetesManagerUITests;
+			productName = DiabetesManagerUITests;
+			productReference = ADD4715A1CD02760006CCEB3 /* DiabetesManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADD4712E1CD0275F006CCEB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Haoran;
+				TargetAttributes = {
+					ADD471351CD0275F006CCEB3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ADD4714E1CD02760006CCEB3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ADD471351CD0275F006CCEB3;
+					};
+					ADD471591CD02760006CCEB3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ADD471351CD0275F006CCEB3;
+					};
+				};
+			};
+			buildConfigurationList = ADD471311CD0275F006CCEB3 /* Build configuration list for PBXProject "DiabetesManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADD4712D1CD0275F006CCEB3;
+			productRefGroup = ADD471371CD0275F006CCEB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADD471351CD0275F006CCEB3 /* DiabetesManager */,
+				ADD4714E1CD02760006CCEB3 /* DiabetesManagerTests */,
+				ADD471591CD02760006CCEB3 /* DiabetesManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADD471341CD0275F006CCEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD471491CD0275F006CCEB3 /* LaunchScreen.storyboard in Resources */,
+				ADD471461CD0275F006CCEB3 /* Assets.xcassets in Resources */,
+				ADD471441CD0275F006CCEB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4714D1CD02760006CCEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD471581CD02760006CCEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD471321CD0275F006CCEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD471411CD0275F006CCEB3 /* ViewController.m in Sources */,
+				ADD4713E1CD0275F006CCEB3 /* AppDelegate.m in Sources */,
+				ADD4713B1CD0275F006CCEB3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4714B1CD02760006CCEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD471541CD02760006CCEB3 /* DiabetesManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD471561CD02760006CCEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD4715F1CD02760006CCEB3 /* DiabetesManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADD471511CD02760006CCEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD471351CD0275F006CCEB3 /* DiabetesManager */;
+			targetProxy = ADD471501CD02760006CCEB3 /* PBXContainerItemProxy */;
+		};
+		ADD4715C1CD02760006CCEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD471351CD0275F006CCEB3 /* DiabetesManager */;
+			targetProxy = ADD4715B1CD02760006CCEB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADD471421CD0275F006CCEB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD471431CD0275F006CCEB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADD471471CD0275F006CCEB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD471481CD0275F006CCEB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADD471611CD02760006CCEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADD471621CD02760006CCEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD471641CD02760006CCEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiabetesManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Haoran.DiabetesManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADD471651CD02760006CCEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiabetesManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Haoran.DiabetesManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADD471671CD02760006CCEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiabetesManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Haoran.DiabetesManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiabetesManager.app/DiabetesManager";
+			};
+			name = Debug;
+		};
+		ADD471681CD02760006CCEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiabetesManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Haoran.DiabetesManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiabetesManager.app/DiabetesManager";
+			};
+			name = Release;
+		};
+		ADD4716A1CD02760006CCEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiabetesManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Haoran.DiabetesManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiabetesManager;
+			};
+			name = Debug;
+		};
+		ADD4716B1CD02760006CCEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiabetesManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Haoran.DiabetesManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiabetesManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD471311CD0275F006CCEB3 /* Build configuration list for PBXProject "DiabetesManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD471611CD02760006CCEB3 /* Debug */,
+				ADD471621CD02760006CCEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD471631CD02760006CCEB3 /* Build configuration list for PBXNativeTarget "DiabetesManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD471641CD02760006CCEB3 /* Debug */,
+				ADD471651CD02760006CCEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADD471661CD02760006CCEB3 /* Build configuration list for PBXNativeTarget "DiabetesManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD471671CD02760006CCEB3 /* Debug */,
+				ADD471681CD02760006CCEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADD471691CD02760006CCEB3 /* Build configuration list for PBXNativeTarget "DiabetesManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD4716A1CD02760006CCEB3 /* Debug */,
+				ADD4716B1CD02760006CCEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADD4712E1CD0275F006CCEB3 /* Project object */;
+}
