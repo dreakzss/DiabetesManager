@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  TriangleBlueView.h
 //  DiabetesManager
 //
-//  Created by wangHaoran on 16/4/27.
+//  Created by wangHaoran on 16/5/22.
 //  Copyright © 2016年 Haoran. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TriangleBlueView : UIView
 
 @end
-

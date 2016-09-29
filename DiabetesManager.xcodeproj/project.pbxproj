@@ -7,14 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E31A824890245725BA9ECF8 /* libPods-DiabetesManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2975665E701AB0C16347CDA /* libPods-DiabetesManager.a */; };
+		AD03463A1CF0E379006F89C2 /* TriangleBlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0346391CF0E379006F89C2 /* TriangleBlueView.m */; };
+		AD03477E1CF2419A006F89C2 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD03477C1CF2419A006F89C2 /* DataModel.xcdatamodeld */; };
+		AD0663E41D044149003A95A7 /* MealTypePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0663E31D044149003A95A7 /* MealTypePickerViewController.m */; };
+		AD0663E81D04689E003A95A7 /* SportsCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0663E71D04689E003A95A7 /* SportsCellView.m */; };
+		AD0663EB1D04898A003A95A7 /* ExerciseTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0663EA1D04898A003A95A7 /* ExerciseTimePickerViewController.m */; };
+		AD0E2E6C1CDB08D500C7B8E9 /* AddDietsRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0E2E6B1CDB08D500C7B8E9 /* AddDietsRecordsViewController.m */; };
+		AD0E2E6F1CDB0E4200C7B8E9 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0E2E6E1CDB0E4200C7B8E9 /* ProfileViewController.m */; };
+		AD105F931D02F88100B3A87B /* DairyFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = AD105F921D02F88100B3A87B /* DairyFunc.m */; };
+		AD105F961D02F8A700B3A87B /* DairyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD105F951D02F8A700B3A87B /* DairyModel.m */; };
+		AD21C2C11CEB81A9006BDFC3 /* Xingshu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD21C2C01CEB81A9006BDFC3 /* Xingshu.ttf */; };
+		AD4275D31CFC123700B244EF /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4275D21CFC123700B244EF /* Settings.png */; };
+		AD4275D61CFC136500B244EF /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4275D51CFC136500B244EF /* SetViewController.m */; };
+		AD985CD91CD144F900BE8807 /* RecordBMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD985CD81CD144F900BE8807 /* RecordBMIViewController.m */; };
+		AD985CDC1CD17A0600BE8807 /* AddDiabetesRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD985CDB1CD17A0600BE8807 /* AddDiabetesRecordsViewController.m */; };
+		AD9914EE1CEFA1AA00649798 /* EvaluteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9914ED1CEFA1AA00649798 /* EvaluteViewController.m */; };
+		AD9914F21CEFA83600649798 /* Evalute.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9914F11CEFA83600649798 /* Evalute.png */; };
+		AD9915391CEFE7FA00649798 /* UncheckedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9915381CEFE7FA00649798 /* UncheckedBox.png */; };
+		AD99153B1CEFEBEC00649798 /* CheckedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = AD99153A1CEFEBEC00649798 /* CheckedBox.png */; };
+		ADA1B7E61CFED63400901034 /* ReminderFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA1B7E51CFED63400901034 /* ReminderFunc.m */; };
+		ADA1B7EB1CFEE02E00901034 /* ReminderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA1B7EA1CFEE02E00901034 /* ReminderModel.m */; };
+		ADA1B7F31CFF1EAD00901034 /* Edit.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA1B7F21CFF1EAD00901034 /* Edit.png */; };
+		ADA1B7F51CFF1F4600901034 /* Edit-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA1B7F41CFF1F4600901034 /* Edit-Selected.png */; };
+		ADA1B8011D004EF200901034 /* MedCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA1B8001D004EF200901034 /* MedCellView.m */; };
+		ADA1B8041D0151A800901034 /* DosagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA1B8031D0151A800901034 /* DosagePickerViewController.m */; };
+		ADA1B8071D01799D00901034 /* UnitPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA1B8061D01799D00901034 /* UnitPickerViewController.m */; };
+		ADAF17131CFD2BB100E38E3C /* CommonKnowledgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAF17121CFD2BB100E38E3C /* CommonKnowledgeViewController.m */; };
+		ADAF17541CFD358D00E38E3C /* Doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = ADAF17531CFD358D00E38E3C /* Doctor.png */; };
+		ADAF92811CF24A9900288C79 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAF927E1CF24A9900288C79 /* User+CoreDataProperties.m */; };
+		ADAF92821CF24A9900288C79 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAF92801CF24A9900288C79 /* User.m */; };
+		ADBC28271D15DFAF00EF814F /* EvaluteFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC28261D15DFAF00EF814F /* EvaluteFunc.m */; };
+		ADC3595C1D43A4B200D0AE44 /* ProfileFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC3595B1D43A4B200D0AE44 /* ProfileFunc.m */; };
+		ADC3595F1D43D38600D0AE44 /* ProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC3595E1D43D38600D0AE44 /* ProfileModel.m */; };
+		ADCBDDF11CEC1AF3007B981E /* AgePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCBDDF01CEC1AF3007B981E /* AgePickerViewController.m */; };
+		ADCD29C21D4A5A3E00689950 /* CommonknowledgeBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = ADCD29C11D4A5A3E00689950 /* CommonknowledgeBackGround.png */; };
+		ADCD29C51D4CCE3600689950 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCD29C41D4CCE3600689950 /* LoginViewController.m */; };
+		ADCD29C91D4CF70300689950 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCD29C81D4CF70300689950 /* RegisterViewController.m */; };
 		ADD4713B1CD0275F006CCEB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4713A1CD0275F006CCEB3 /* main.m */; };
 		ADD4713E1CD0275F006CCEB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4713D1CD0275F006CCEB3 /* AppDelegate.m */; };
-		ADD471411CD0275F006CCEB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD471401CD0275F006CCEB3 /* ViewController.m */; };
-		ADD471441CD0275F006CCEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD471421CD0275F006CCEB3 /* Main.storyboard */; };
+		ADD471411CD0275F006CCEB3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD471401CD0275F006CCEB3 /* MainViewController.m */; };
 		ADD471461CD0275F006CCEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD471451CD0275F006CCEB3 /* Assets.xcassets */; };
 		ADD471491CD0275F006CCEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD471471CD0275F006CCEB3 /* LaunchScreen.storyboard */; };
 		ADD471541CD02760006CCEB3 /* DiabetesManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD471531CD02760006CCEB3 /* DiabetesManagerTests.m */; };
 		ADD4715F1CD02760006CCEB3 /* DiabetesManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4715E1CD02760006CCEB3 /* DiabetesManagerUITests.m */; };
+		ADD471741CD028A0006CCEB3 /* Dairy.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD4716F1CD028A0006CCEB3 /* Dairy.png */; };
+		ADD471751CD028A0006CCEB3 /* Desktop.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD471701CD028A0006CCEB3 /* Desktop.png */; };
+		ADD471761CD028A0006CCEB3 /* File.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD471711CD028A0006CCEB3 /* File.png */; };
+		ADD471771CD028A0006CCEB3 /* Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD471721CD028A0006CCEB3 /* Judge.png */; };
+		ADD471781CD028A0006CCEB3 /* Reminder.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD471731CD028A0006CCEB3 /* Reminder.png */; };
+		ADD4717B1CD029CA006CCEB3 /* GlobalFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4717A1CD029CA006CCEB3 /* GlobalFunc.m */; };
+		ADD4717D1CD02CD2006CCEB3 /* CommonKnowledge.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD4717C1CD02CD2006CCEB3 /* CommonKnowledge.png */; };
+		ADD471801CD02CDC006CCEB3 /* IconAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD4717E1CD02CDC006CCEB3 /* IconAdd.png */; };
+		ADD471811CD02CDC006CCEB3 /* IconBack.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD4717F1CD02CDC006CCEB3 /* IconBack.png */; };
+		ADD471841CD02D52006CCEB3 /* DairyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD471831CD02D52006CCEB3 /* DairyViewController.m */; };
+		ADD471861CD02F93006CCEB3 /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADD471851CD02F93006CCEB3 /* Background.jpg */; };
+		ADD471891CD030A3006CCEB3 /* RecordDiabetesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD471881CD030A3006CCEB3 /* RecordDiabetesViewController.m */; };
+		ADD60EFB1CD18D60007349FF /* Mic.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD60EFA1CD18D60007349FF /* Mic.png */; };
+		ADD60EFE1CD19D04007349FF /* AddBMIRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD60EFD1CD19D04007349FF /* AddBMIRecordsViewController.m */; };
+		ADD60F011CD799D7007349FF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD60F001CD799D7007349FF /* RootViewController.m */; };
+		ADE1D34E1CECF13600882EDD /* WaistlinePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE1D34D1CECF13600882EDD /* WaistlinePickerViewController.m */; };
+		ADE1D3551CECF8BE00882EDD /* HeightPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE1D3541CECF8BE00882EDD /* HeightPickerViewController.m */; };
+		ADE1D3581CECFB0700882EDD /* WeightPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE1D3571CECFB0700882EDD /* WeightPickerViewController.m */; };
+		ADE1D35C1CED0C8F00882EDD /* GlucosePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE1D35B1CED0C8F00882EDD /* GlucosePickerViewController.m */; };
+		ADE1D35F1CED165C00882EDD /* CholesterolPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE1D35E1CED165C00882EDD /* CholesterolPickerViewController.m */; };
+		ADE1D3621CED23D700882EDD /* TriglyceridePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE1D3611CED23D700882EDD /* TriglyceridePickerViewController.m */; };
+		ADF417651CE722E800BD8619 /* TriangleGrayView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF417641CE722E800BD8619 /* TriangleGrayView.m */; };
+		ADF4176F1CE773C000BD8619 /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF4176E1CE773C000BD8619 /* ReminderViewController.m */; };
+		ADF417721CE7788E00BD8619 /* RemindMedicineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF417711CE7788E00BD8619 /* RemindMedicineViewController.m */; };
+		ADF417751CE7789C00BD8619 /* RemindSportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF417741CE7789C00BD8619 /* RemindSportsViewController.m */; };
+		ADF4177B1CE7790B00BD8619 /* RemindMeasurementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF4177A1CE7790B00BD8619 /* RemindMeasurementViewController.m */; };
+		ADF4177E1CE7821700BD8619 /* AddMedicineReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF4177D1CE7821700BD8619 /* AddMedicineReminderViewController.m */; };
+		ADF417811CE7A7D200BD8619 /* AddSportsReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF417801CE7A7D200BD8619 /* AddSportsReminderViewController.m */; };
+		ADF417841CE7AC5E00BD8619 /* AddMeasurementReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF417831CE7AC5E00BD8619 /* AddMeasurementReminderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +100,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ADD4F588C0E318FCDF7D5CA /* Pods-DiabetesManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiabetesManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiabetesManager/Pods-DiabetesManager.debug.xcconfig"; sourceTree = "<group>"; };
+		8D8B2CD4FF1E4A4F8C0BA98A /* Pods-DiabetesManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiabetesManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiabetesManager/Pods-DiabetesManager.release.xcconfig"; sourceTree = "<group>"; };
+		AD0346381CF0E379006F89C2 /* TriangleBlueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleBlueView.h; sourceTree = "<group>"; };
+		AD0346391CF0E379006F89C2 /* TriangleBlueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleBlueView.m; sourceTree = "<group>"; };
+		AD03477D1CF2419A006F89C2 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		AD0663E21D044149003A95A7 /* MealTypePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealTypePickerViewController.h; sourceTree = "<group>"; };
+		AD0663E31D044149003A95A7 /* MealTypePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealTypePickerViewController.m; sourceTree = "<group>"; };
+		AD0663E61D04689E003A95A7 /* SportsCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsCellView.h; sourceTree = "<group>"; };
+		AD0663E71D04689E003A95A7 /* SportsCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsCellView.m; sourceTree = "<group>"; };
+		AD0663E91D04898A003A95A7 /* ExerciseTimePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseTimePickerViewController.h; sourceTree = "<group>"; };
+		AD0663EA1D04898A003A95A7 /* ExerciseTimePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseTimePickerViewController.m; sourceTree = "<group>"; };
+		AD0E2E6A1CDB08D500C7B8E9 /* AddDietsRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDietsRecordsViewController.h; sourceTree = "<group>"; };
+		AD0E2E6B1CDB08D500C7B8E9 /* AddDietsRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDietsRecordsViewController.m; sourceTree = "<group>"; };
+		AD0E2E6D1CDB0E4200C7B8E9 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		AD0E2E6E1CDB0E4200C7B8E9 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		AD105F911D02F88100B3A87B /* DairyFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DairyFunc.h; sourceTree = "<group>"; };
+		AD105F921D02F88100B3A87B /* DairyFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DairyFunc.m; sourceTree = "<group>"; };
+		AD105F941D02F8A700B3A87B /* DairyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DairyModel.h; sourceTree = "<group>"; };
+		AD105F951D02F8A700B3A87B /* DairyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DairyModel.m; sourceTree = "<group>"; };
+		AD21C2C01CEB81A9006BDFC3 /* Xingshu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Xingshu.ttf; sourceTree = "<group>"; };
+		AD4275D21CFC123700B244EF /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		AD4275D41CFC136500B244EF /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		AD4275D51CFC136500B244EF /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		AD985CD71CD144F900BE8807 /* RecordBMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordBMIViewController.h; sourceTree = "<group>"; };
+		AD985CD81CD144F900BE8807 /* RecordBMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordBMIViewController.m; sourceTree = "<group>"; };
+		AD985CDA1CD17A0600BE8807 /* AddDiabetesRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDiabetesRecordsViewController.h; sourceTree = "<group>"; };
+		AD985CDB1CD17A0600BE8807 /* AddDiabetesRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDiabetesRecordsViewController.m; sourceTree = "<group>"; };
+		AD9914EC1CEFA1AA00649798 /* EvaluteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaluteViewController.h; sourceTree = "<group>"; };
+		AD9914ED1CEFA1AA00649798 /* EvaluteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluteViewController.m; sourceTree = "<group>"; };
+		AD9914F11CEFA83600649798 /* Evalute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Evalute.png; sourceTree = "<group>"; };
+		AD9915381CEFE7FA00649798 /* UncheckedBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UncheckedBox.png; sourceTree = "<group>"; };
+		AD99153A1CEFEBEC00649798 /* CheckedBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckedBox.png; sourceTree = "<group>"; };
+		ADA1B7E41CFED63400901034 /* ReminderFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderFunc.h; sourceTree = "<group>"; };
+		ADA1B7E51CFED63400901034 /* ReminderFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderFunc.m; sourceTree = "<group>"; };
+		ADA1B7E91CFEE02E00901034 /* ReminderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderModel.h; sourceTree = "<group>"; };
+		ADA1B7EA1CFEE02E00901034 /* ReminderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderModel.m; sourceTree = "<group>"; };
+		ADA1B7F21CFF1EAD00901034 /* Edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Edit.png; sourceTree = "<group>"; };
+		ADA1B7F41CFF1F4600901034 /* Edit-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Edit-Selected.png"; sourceTree = "<group>"; };
+		ADA1B7FF1D004EF200901034 /* MedCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedCellView.h; sourceTree = "<group>"; };
+		ADA1B8001D004EF200901034 /* MedCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedCellView.m; sourceTree = "<group>"; };
+		ADA1B8021D0151A800901034 /* DosagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DosagePickerViewController.h; sourceTree = "<group>"; };
+		ADA1B8031D0151A800901034 /* DosagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DosagePickerViewController.m; sourceTree = "<group>"; };
+		ADA1B8051D01799D00901034 /* UnitPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitPickerViewController.h; sourceTree = "<group>"; };
+		ADA1B8061D01799D00901034 /* UnitPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitPickerViewController.m; sourceTree = "<group>"; };
+		ADAF17111CFD2BB100E38E3C /* CommonKnowledgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonKnowledgeViewController.h; sourceTree = "<group>"; };
+		ADAF17121CFD2BB100E38E3C /* CommonKnowledgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonKnowledgeViewController.m; sourceTree = "<group>"; };
+		ADAF17531CFD358D00E38E3C /* Doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor.png; sourceTree = "<group>"; };
+		ADAF927D1CF24A9900288C79 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		ADAF927E1CF24A9900288C79 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		ADAF927F1CF24A9900288C79 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		ADAF92801CF24A9900288C79 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		ADBC28251D15DFAF00EF814F /* EvaluteFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaluteFunc.h; sourceTree = "<group>"; };
+		ADBC28261D15DFAF00EF814F /* EvaluteFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluteFunc.m; sourceTree = "<group>"; };
+		ADC3595A1D43A4B200D0AE44 /* ProfileFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileFunc.h; sourceTree = "<group>"; };
+		ADC3595B1D43A4B200D0AE44 /* ProfileFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileFunc.m; sourceTree = "<group>"; };
+		ADC3595D1D43D38600D0AE44 /* ProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileModel.h; sourceTree = "<group>"; };
+		ADC3595E1D43D38600D0AE44 /* ProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileModel.m; sourceTree = "<group>"; };
+		ADCBDDEF1CEC1AF3007B981E /* AgePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgePickerViewController.h; sourceTree = "<group>"; };
+		ADCBDDF01CEC1AF3007B981E /* AgePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgePickerViewController.m; sourceTree = "<group>"; };
+		ADCD29C11D4A5A3E00689950 /* CommonknowledgeBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CommonknowledgeBackGround.png; sourceTree = "<group>"; };
+		ADCD29C31D4CCE3600689950 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		ADCD29C41D4CCE3600689950 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		ADCD29C71D4CF70300689950 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		ADCD29C81D4CF70300689950 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		ADD471361CD0275F006CCEB3 /* DiabetesManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiabetesManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD4713A1CD0275F006CCEB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADD4713C1CD0275F006CCEB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADD4713D1CD0275F006CCEB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ADD4713F1CD0275F006CCEB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ADD471401CD0275F006CCEB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ADD471431CD0275F006CCEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADD4713F1CD0275F006CCEB3 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		ADD471401CD0275F006CCEB3 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		ADD471451CD0275F006CCEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADD471481CD0275F006CCEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADD4714A1CD0275F006CCEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +179,56 @@
 		ADD4715A1CD02760006CCEB3 /* DiabetesManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiabetesManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD4715E1CD02760006CCEB3 /* DiabetesManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiabetesManagerUITests.m; sourceTree = "<group>"; };
 		ADD471601CD02760006CCEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD4716F1CD028A0006CCEB3 /* Dairy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dairy.png; sourceTree = "<group>"; };
+		ADD471701CD028A0006CCEB3 /* Desktop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Desktop.png; sourceTree = "<group>"; };
+		ADD471711CD028A0006CCEB3 /* File.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File.png; sourceTree = "<group>"; };
+		ADD471721CD028A0006CCEB3 /* Judge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Judge.png; sourceTree = "<group>"; };
+		ADD471731CD028A0006CCEB3 /* Reminder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reminder.png; sourceTree = "<group>"; };
+		ADD471791CD029CA006CCEB3 /* GlobalFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalFunc.h; sourceTree = "<group>"; };
+		ADD4717A1CD029CA006CCEB3 /* GlobalFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalFunc.m; sourceTree = "<group>"; };
+		ADD4717C1CD02CD2006CCEB3 /* CommonKnowledge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CommonKnowledge.png; sourceTree = "<group>"; };
+		ADD4717E1CD02CDC006CCEB3 /* IconAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconAdd.png; sourceTree = "<group>"; };
+		ADD4717F1CD02CDC006CCEB3 /* IconBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconBack.png; sourceTree = "<group>"; };
+		ADD471821CD02D52006CCEB3 /* DairyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DairyViewController.h; sourceTree = "<group>"; };
+		ADD471831CD02D52006CCEB3 /* DairyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DairyViewController.m; sourceTree = "<group>"; };
+		ADD471851CD02F93006CCEB3 /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		ADD471871CD030A3006CCEB3 /* RecordDiabetesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordDiabetesViewController.h; sourceTree = "<group>"; };
+		ADD471881CD030A3006CCEB3 /* RecordDiabetesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordDiabetesViewController.m; sourceTree = "<group>"; };
+		ADD60EFA1CD18D60007349FF /* Mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mic.png; sourceTree = "<group>"; };
+		ADD60EFC1CD19D04007349FF /* AddBMIRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBMIRecordsViewController.h; sourceTree = "<group>"; };
+		ADD60EFD1CD19D04007349FF /* AddBMIRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBMIRecordsViewController.m; sourceTree = "<group>"; };
+		ADD60EFF1CD799D7007349FF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		ADD60F001CD799D7007349FF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		ADE1D34C1CECF13600882EDD /* WaistlinePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaistlinePickerViewController.h; sourceTree = "<group>"; };
+		ADE1D34D1CECF13600882EDD /* WaistlinePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaistlinePickerViewController.m; sourceTree = "<group>"; };
+		ADE1D3521CECF29300882EDD /* GlobalDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalDef.h; sourceTree = "<group>"; };
+		ADE1D3531CECF8BE00882EDD /* HeightPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightPickerViewController.h; sourceTree = "<group>"; };
+		ADE1D3541CECF8BE00882EDD /* HeightPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightPickerViewController.m; sourceTree = "<group>"; };
+		ADE1D3561CECFB0700882EDD /* WeightPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightPickerViewController.h; sourceTree = "<group>"; };
+		ADE1D3571CECFB0700882EDD /* WeightPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightPickerViewController.m; sourceTree = "<group>"; };
+		ADE1D35A1CED0C8F00882EDD /* GlucosePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucosePickerViewController.h; sourceTree = "<group>"; };
+		ADE1D35B1CED0C8F00882EDD /* GlucosePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucosePickerViewController.m; sourceTree = "<group>"; };
+		ADE1D35D1CED165C00882EDD /* CholesterolPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CholesterolPickerViewController.h; sourceTree = "<group>"; };
+		ADE1D35E1CED165C00882EDD /* CholesterolPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CholesterolPickerViewController.m; sourceTree = "<group>"; };
+		ADE1D3601CED23D700882EDD /* TriglyceridePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriglyceridePickerViewController.h; sourceTree = "<group>"; };
+		ADE1D3611CED23D700882EDD /* TriglyceridePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriglyceridePickerViewController.m; sourceTree = "<group>"; };
+		ADF417631CE722E800BD8619 /* TriangleGrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleGrayView.h; sourceTree = "<group>"; };
+		ADF417641CE722E800BD8619 /* TriangleGrayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleGrayView.m; sourceTree = "<group>"; };
+		ADF4176D1CE773C000BD8619 /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		ADF4176E1CE773C000BD8619 /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
+		ADF417701CE7788E00BD8619 /* RemindMedicineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindMedicineViewController.h; sourceTree = "<group>"; };
+		ADF417711CE7788E00BD8619 /* RemindMedicineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindMedicineViewController.m; sourceTree = "<group>"; };
+		ADF417731CE7789C00BD8619 /* RemindSportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindSportsViewController.h; sourceTree = "<group>"; };
+		ADF417741CE7789C00BD8619 /* RemindSportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindSportsViewController.m; sourceTree = "<group>"; };
+		ADF417791CE7790B00BD8619 /* RemindMeasurementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindMeasurementViewController.h; sourceTree = "<group>"; };
+		ADF4177A1CE7790B00BD8619 /* RemindMeasurementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindMeasurementViewController.m; sourceTree = "<group>"; };
+		ADF4177C1CE7821700BD8619 /* AddMedicineReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMedicineReminderViewController.h; sourceTree = "<group>"; };
+		ADF4177D1CE7821700BD8619 /* AddMedicineReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMedicineReminderViewController.m; sourceTree = "<group>"; };
+		ADF4177F1CE7A7D200BD8619 /* AddSportsReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSportsReminderViewController.h; sourceTree = "<group>"; };
+		ADF417801CE7A7D200BD8619 /* AddSportsReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSportsReminderViewController.m; sourceTree = "<group>"; };
+		ADF417821CE7AC5E00BD8619 /* AddMeasurementReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMeasurementReminderViewController.h; sourceTree = "<group>"; };
+		ADF417831CE7AC5E00BD8619 /* AddMeasurementReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMeasurementReminderViewController.m; sourceTree = "<group>"; };
+		F2975665E701AB0C16347CDA /* libPods-DiabetesManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiabetesManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +236,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E31A824890245725BA9ECF8 /* libPods-DiabetesManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +257,295 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6765E9A9F6DABAFA6BF64EE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2975665E701AB0C16347CDA /* libPods-DiabetesManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD0347821CF249A6006F89C2 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				ADAF927D1CF24A9900288C79 /* User+CoreDataProperties.h */,
+				ADAF927E1CF24A9900288C79 /* User+CoreDataProperties.m */,
+				ADAF927F1CF24A9900288C79 /* User.h */,
+				ADAF92801CF24A9900288C79 /* User.m */,
+				AD03477C1CF2419A006F89C2 /* DataModel.xcdatamodeld */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		AD0663E11D044111003A95A7 /* CustomWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AD0663E21D044149003A95A7 /* MealTypePickerViewController.h */,
+				AD0663E31D044149003A95A7 /* MealTypePickerViewController.m */,
+			);
+			name = CustomWidget;
+			sourceTree = "<group>";
+		};
+		AD0663EC1D04E490003A95A7 /* CommonKnowledge */ = {
+			isa = PBXGroup;
+			children = (
+				ADAF17111CFD2BB100E38E3C /* CommonKnowledgeViewController.h */,
+				ADAF17121CFD2BB100E38E3C /* CommonKnowledgeViewController.m */,
+			);
+			name = CommonKnowledge;
+			sourceTree = "<group>";
+		};
+		AD0E2E701CDB0E5900C7B8E9 /* Dairy */ = {
+			isa = PBXGroup;
+			children = (
+				AD105F8F1D02F22B00B3A87B /* Model */,
+				AD105F901D02F23200B3A87B /* Controller */,
+				AD105F8D1D02F21300B3A87B /* View */,
+			);
+			name = Dairy;
+			sourceTree = "<group>";
+		};
+		AD0E2E711CDB0E8900C7B8E9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				ADE1D34B1CECF0BD00882EDD /* Widget */,
+				ADC359591D43A41900D0AE44 /* Model */,
+				ADC359581D43A40D00D0AE44 /* Controller */,
+				ADC359571D43A40000D0AE44 /* View */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		AD105F8D1D02F21300B3A87B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADD471821CD02D52006CCEB3 /* DairyViewController.h */,
+				ADD471831CD02D52006CCEB3 /* DairyViewController.m */,
+				ADD471871CD030A3006CCEB3 /* RecordDiabetesViewController.h */,
+				ADD471881CD030A3006CCEB3 /* RecordDiabetesViewController.m */,
+				AD985CD71CD144F900BE8807 /* RecordBMIViewController.h */,
+				AD985CD81CD144F900BE8807 /* RecordBMIViewController.m */,
+				AD105F8E1D02F21F00B3A87B /* Add */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AD105F8E1D02F21F00B3A87B /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				AD985CDA1CD17A0600BE8807 /* AddDiabetesRecordsViewController.h */,
+				AD985CDB1CD17A0600BE8807 /* AddDiabetesRecordsViewController.m */,
+				ADD60EFC1CD19D04007349FF /* AddBMIRecordsViewController.h */,
+				ADD60EFD1CD19D04007349FF /* AddBMIRecordsViewController.m */,
+				AD0E2E6A1CDB08D500C7B8E9 /* AddDietsRecordsViewController.h */,
+				AD0E2E6B1CDB08D500C7B8E9 /* AddDietsRecordsViewController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		AD105F8F1D02F22B00B3A87B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD105F941D02F8A700B3A87B /* DairyModel.h */,
+				AD105F951D02F8A700B3A87B /* DairyModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AD105F901D02F23200B3A87B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD105F911D02F88100B3A87B /* DairyFunc.h */,
+				AD105F921D02F88100B3A87B /* DairyFunc.m */,
+				AD0663E11D044111003A95A7 /* CustomWidget */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AD21C2BE1CEB807F006BDFC3 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AD21C2C01CEB81A9006BDFC3 /* Xingshu.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		AD55FAC31D48ABDF006BC141 /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				AD4275D41CFC136500B244EF /* SetViewController.h */,
+				AD4275D51CFC136500B244EF /* SetViewController.m */,
+			);
+			name = Logout;
+			sourceTree = "<group>";
+		};
+		AD55FAC41D48ABFE006BC141 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ADCD29C31D4CCE3600689950 /* LoginViewController.h */,
+				ADCD29C41D4CCE3600689950 /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		AD9914E91CEFA13000649798 /* Evalute */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1B7DE1CFECF3100901034 /* Controller */,
+				ADA1B7DD1CFECF2300901034 /* View */,
+			);
+			name = Evalute;
+			sourceTree = "<group>";
+		};
+		ADA1B7DD1CFECF2300901034 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD9914EC1CEFA1AA00649798 /* EvaluteViewController.h */,
+				AD9914ED1CEFA1AA00649798 /* EvaluteViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ADA1B7DE1CFECF3100901034 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC28251D15DFAF00EF814F /* EvaluteFunc.h */,
+				ADBC28261D15DFAF00EF814F /* EvaluteFunc.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ADA1B7DF1CFED54200901034 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADF4176D1CE773C000BD8619 /* ReminderViewController.h */,
+				ADF4176E1CE773C000BD8619 /* ReminderViewController.m */,
+				ADF417701CE7788E00BD8619 /* RemindMedicineViewController.h */,
+				ADF417711CE7788E00BD8619 /* RemindMedicineViewController.m */,
+				ADF417731CE7789C00BD8619 /* RemindSportsViewController.h */,
+				ADF417741CE7789C00BD8619 /* RemindSportsViewController.m */,
+				ADF417791CE7790B00BD8619 /* RemindMeasurementViewController.h */,
+				ADF4177A1CE7790B00BD8619 /* RemindMeasurementViewController.m */,
+				ADA1B8081D01816800901034 /* Add */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ADA1B7E01CFED54E00901034 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1B7E41CFED63400901034 /* ReminderFunc.h */,
+				ADA1B7E51CFED63400901034 /* ReminderFunc.m */,
+				ADA1B7EE1CFF079F00901034 /* CustomWidget */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ADA1B7E81CFEDEF100901034 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1B7E91CFEE02E00901034 /* ReminderModel.h */,
+				ADA1B7EA1CFEE02E00901034 /* ReminderModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ADA1B7EE1CFF079F00901034 /* CustomWidget */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1B7FF1D004EF200901034 /* MedCellView.h */,
+				ADA1B8001D004EF200901034 /* MedCellView.m */,
+				AD0663E61D04689E003A95A7 /* SportsCellView.h */,
+				AD0663E71D04689E003A95A7 /* SportsCellView.m */,
+				ADA1B8021D0151A800901034 /* DosagePickerViewController.h */,
+				ADA1B8031D0151A800901034 /* DosagePickerViewController.m */,
+				ADA1B8051D01799D00901034 /* UnitPickerViewController.h */,
+				ADA1B8061D01799D00901034 /* UnitPickerViewController.m */,
+				AD0663E91D04898A003A95A7 /* ExerciseTimePickerViewController.h */,
+				AD0663EA1D04898A003A95A7 /* ExerciseTimePickerViewController.m */,
+			);
+			name = CustomWidget;
+			sourceTree = "<group>";
+		};
+		ADA1B7F61CFFC1A200901034 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ADD60EFF1CD799D7007349FF /* RootViewController.h */,
+				ADD60F001CD799D7007349FF /* RootViewController.m */,
+				ADD4713F1CD0275F006CCEB3 /* MainViewController.h */,
+				ADD471401CD0275F006CCEB3 /* MainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		ADA1B8081D01816800901034 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				ADF4177C1CE7821700BD8619 /* AddMedicineReminderViewController.h */,
+				ADF4177D1CE7821700BD8619 /* AddMedicineReminderViewController.m */,
+				ADF4177F1CE7A7D200BD8619 /* AddSportsReminderViewController.h */,
+				ADF417801CE7A7D200BD8619 /* AddSportsReminderViewController.m */,
+				ADF417821CE7AC5E00BD8619 /* AddMeasurementReminderViewController.h */,
+				ADF417831CE7AC5E00BD8619 /* AddMeasurementReminderViewController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		ADC359571D43A40000D0AE44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD0E2E6D1CDB0E4200C7B8E9 /* ProfileViewController.h */,
+				AD0E2E6E1CDB0E4200C7B8E9 /* ProfileViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ADC359581D43A40D00D0AE44 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADC3595A1D43A4B200D0AE44 /* ProfileFunc.h */,
+				ADC3595B1D43A4B200D0AE44 /* ProfileFunc.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ADC359591D43A41900D0AE44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADC3595D1D43D38600D0AE44 /* ProfileModel.h */,
+				ADC3595E1D43D38600D0AE44 /* ProfileModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ADCD29C61D4CF6E900689950 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				ADCD29C71D4CF70300689950 /* RegisterViewController.h */,
+				ADCD29C81D4CF70300689950 /* RegisterViewController.m */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		ADCD29CA1D4D077B00689950 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				ADD471791CD029CA006CCEB3 /* GlobalFunc.h */,
+				ADD4717A1CD029CA006CCEB3 /* GlobalFunc.m */,
+				ADE1D3521CECF29300882EDD /* GlobalDef.h */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		ADCD29CB1D4D078800689950 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				ADD4713C1CD0275F006CCEB3 /* AppDelegate.h */,
+				ADD4713D1CD0275F006CCEB3 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
 		ADD4712D1CD0275F006CCEB3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +553,8 @@
 				ADD471521CD02760006CCEB3 /* DiabetesManagerTests */,
 				ADD4715D1CD02760006CCEB3 /* DiabetesManagerUITests */,
 				ADD471371CD0275F006CCEB3 /* Products */,
+				B53C69845CB545D9FC8C272C /* Pods */,
+				6765E9A9F6DABAFA6BF64EE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +571,23 @@
 		ADD471381CD0275F006CCEB3 /* DiabetesManager */ = {
 			isa = PBXGroup;
 			children = (
-				ADD4713C1CD0275F006CCEB3 /* AppDelegate.h */,
-				ADD4713D1CD0275F006CCEB3 /* AppDelegate.m */,
-				ADD4713F1CD0275F006CCEB3 /* ViewController.h */,
-				ADD471401CD0275F006CCEB3 /* ViewController.m */,
-				ADD471421CD0275F006CCEB3 /* Main.storyboard */,
+				ADCD29CB1D4D078800689950 /* AppDelegate */,
+				ADCD29CA1D4D077B00689950 /* Global */,
+				ADA1B7F61CFFC1A200901034 /* Main */,
+				AD0E2E701CDB0E5900C7B8E9 /* Dairy */,
+				AD0663EC1D04E490003A95A7 /* CommonKnowledge */,
+				AD0E2E711CDB0E8900C7B8E9 /* Profile */,
+				ADF4176C1CE7739D00BD8619 /* Reminder */,
+				AD9914E91CEFA13000649798 /* Evalute */,
+				AD55FAC31D48ABDF006BC141 /* Logout */,
+				ADCD29C61D4CF6E900689950 /* Register */,
+				AD55FAC41D48ABFE006BC141 /* Login */,
+				AD0347821CF249A6006F89C2 /* Database */,
 				ADD471451CD0275F006CCEB3 /* Assets.xcassets */,
 				ADD471471CD0275F006CCEB3 /* LaunchScreen.storyboard */,
 				ADD4714A1CD0275F006CCEB3 /* Info.plist */,
+				AD21C2BE1CEB807F006BDFC3 /* fonts */,
+				ADD4716E1CD028A0006CCEB3 /* images */,
 				ADD471391CD0275F006CCEB3 /* Supporting Files */,
 			);
 			path = DiabetesManager;
@@ -140,6 +619,75 @@
 			path = DiabetesManagerUITests;
 			sourceTree = "<group>";
 		};
+		ADD4716E1CD028A0006CCEB3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ADCD29C11D4A5A3E00689950 /* CommonknowledgeBackGround.png */,
+				ADA1B7F41CFF1F4600901034 /* Edit-Selected.png */,
+				ADA1B7F21CFF1EAD00901034 /* Edit.png */,
+				ADAF17531CFD358D00E38E3C /* Doctor.png */,
+				AD4275D21CFC123700B244EF /* Settings.png */,
+				AD9915381CEFE7FA00649798 /* UncheckedBox.png */,
+				AD99153A1CEFEBEC00649798 /* CheckedBox.png */,
+				AD9914F11CEFA83600649798 /* Evalute.png */,
+				ADD4717C1CD02CD2006CCEB3 /* CommonKnowledge.png */,
+				ADD4716F1CD028A0006CCEB3 /* Dairy.png */,
+				ADD471701CD028A0006CCEB3 /* Desktop.png */,
+				ADD471851CD02F93006CCEB3 /* Background.jpg */,
+				ADD471711CD028A0006CCEB3 /* File.png */,
+				ADD471721CD028A0006CCEB3 /* Judge.png */,
+				ADD471731CD028A0006CCEB3 /* Reminder.png */,
+				ADD4717E1CD02CDC006CCEB3 /* IconAdd.png */,
+				ADD4717F1CD02CDC006CCEB3 /* IconBack.png */,
+				ADD60EFA1CD18D60007349FF /* Mic.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		ADE1D34B1CECF0BD00882EDD /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				ADF417631CE722E800BD8619 /* TriangleGrayView.h */,
+				ADF417641CE722E800BD8619 /* TriangleGrayView.m */,
+				AD0346381CF0E379006F89C2 /* TriangleBlueView.h */,
+				AD0346391CF0E379006F89C2 /* TriangleBlueView.m */,
+				ADCBDDEF1CEC1AF3007B981E /* AgePickerViewController.h */,
+				ADCBDDF01CEC1AF3007B981E /* AgePickerViewController.m */,
+				ADE1D34C1CECF13600882EDD /* WaistlinePickerViewController.h */,
+				ADE1D34D1CECF13600882EDD /* WaistlinePickerViewController.m */,
+				ADE1D3531CECF8BE00882EDD /* HeightPickerViewController.h */,
+				ADE1D3541CECF8BE00882EDD /* HeightPickerViewController.m */,
+				ADE1D3561CECFB0700882EDD /* WeightPickerViewController.h */,
+				ADE1D3571CECFB0700882EDD /* WeightPickerViewController.m */,
+				ADE1D35A1CED0C8F00882EDD /* GlucosePickerViewController.h */,
+				ADE1D35B1CED0C8F00882EDD /* GlucosePickerViewController.m */,
+				ADE1D35D1CED165C00882EDD /* CholesterolPickerViewController.h */,
+				ADE1D35E1CED165C00882EDD /* CholesterolPickerViewController.m */,
+				ADE1D3601CED23D700882EDD /* TriglyceridePickerViewController.h */,
+				ADE1D3611CED23D700882EDD /* TriglyceridePickerViewController.m */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		ADF4176C1CE7739D00BD8619 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1B7E81CFEDEF100901034 /* Model */,
+				ADA1B7E01CFED54E00901034 /* Controller */,
+				ADA1B7DF1CFED54200901034 /* View */,
+			);
+			name = Reminder;
+			sourceTree = "<group>";
+		};
+		B53C69845CB545D9FC8C272C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ADD4F588C0E318FCDF7D5CA /* Pods-DiabetesManager.debug.xcconfig */,
+				8D8B2CD4FF1E4A4F8C0BA98A /* Pods-DiabetesManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +695,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADD471631CD02760006CCEB3 /* Build configuration list for PBXNativeTarget "DiabetesManager" */;
 			buildPhases = (
+				C178664D7AA3FE1FAC2BFA51 /* Check Pods Manifest.lock */,
 				ADD471321CD0275F006CCEB3 /* Sources */,
 				ADD471331CD0275F006CCEB3 /* Frameworks */,
 				ADD471341CD0275F006CCEB3 /* Resources */,
+				85C28F4BD7D3C0B188B4AB8F /* Embed Pods Frameworks */,
+				BCDF5842F60CADB140E72C28 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +758,7 @@
 				TargetAttributes = {
 					ADD471351CD0275F006CCEB3 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = K839WD6C5J;
 					};
 					ADD4714E1CD02760006CCEB3 = {
 						CreatedOnToolsVersion = 7.3;
@@ -243,9 +795,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA1B7F51CFF1F4600901034 /* Edit-Selected.png in Resources */,
+				ADD471751CD028A0006CCEB3 /* Desktop.png in Resources */,
+				AD99153B1CEFEBEC00649798 /* CheckedBox.png in Resources */,
+				ADD471861CD02F93006CCEB3 /* Background.jpg in Resources */,
+				AD9915391CEFE7FA00649798 /* UncheckedBox.png in Resources */,
+				ADD471801CD02CDC006CCEB3 /* IconAdd.png in Resources */,
+				AD4275D31CFC123700B244EF /* Settings.png in Resources */,
+				ADD60EFB1CD18D60007349FF /* Mic.png in Resources */,
+				ADD471771CD028A0006CCEB3 /* Judge.png in Resources */,
+				ADAF17541CFD358D00E38E3C /* Doctor.png in Resources */,
+				ADCD29C21D4A5A3E00689950 /* CommonknowledgeBackGround.png in Resources */,
+				ADD471811CD02CDC006CCEB3 /* IconBack.png in Resources */,
+				ADA1B7F31CFF1EAD00901034 /* Edit.png in Resources */,
+				AD9914F21CEFA83600649798 /* Evalute.png in Resources */,
 				ADD471491CD0275F006CCEB3 /* LaunchScreen.storyboard in Resources */,
+				ADD471781CD028A0006CCEB3 /* Reminder.png in Resources */,
+				ADD471761CD028A0006CCEB3 /* File.png in Resources */,
 				ADD471461CD0275F006CCEB3 /* Assets.xcassets in Resources */,
-				ADD471441CD0275F006CCEB3 /* Main.storyboard in Resources */,
+				ADD471741CD028A0006CCEB3 /* Dairy.png in Resources */,
+				AD21C2C11CEB81A9006BDFC3 /* Xingshu.ttf in Resources */,
+				ADD4717D1CD02CD2006CCEB3 /* CommonKnowledge.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +835,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85C28F4BD7D3C0B188B4AB8F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiabetesManager/Pods-DiabetesManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCDF5842F60CADB140E72C28 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiabetesManager/Pods-DiabetesManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C178664D7AA3FE1FAC2BFA51 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADD471321CD0275F006CCEB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADD471411CD0275F006CCEB3 /* ViewController.m in Sources */,
+				ADAF92811CF24A9900288C79 /* User+CoreDataProperties.m in Sources */,
+				AD0663E81D04689E003A95A7 /* SportsCellView.m in Sources */,
+				ADF417751CE7789C00BD8619 /* RemindSportsViewController.m in Sources */,
+				ADA1B8071D01799D00901034 /* UnitPickerViewController.m in Sources */,
+				AD0E2E6C1CDB08D500C7B8E9 /* AddDietsRecordsViewController.m in Sources */,
+				AD985CDC1CD17A0600BE8807 /* AddDiabetesRecordsViewController.m in Sources */,
+				ADF417721CE7788E00BD8619 /* RemindMedicineViewController.m in Sources */,
+				ADE1D3581CECFB0700882EDD /* WeightPickerViewController.m in Sources */,
+				ADF417811CE7A7D200BD8619 /* AddSportsReminderViewController.m in Sources */,
+				AD03463A1CF0E379006F89C2 /* TriangleBlueView.m in Sources */,
+				ADF417841CE7AC5E00BD8619 /* AddMeasurementReminderViewController.m in Sources */,
+				AD105F931D02F88100B3A87B /* DairyFunc.m in Sources */,
+				ADAF17131CFD2BB100E38E3C /* CommonKnowledgeViewController.m in Sources */,
+				ADA1B7EB1CFEE02E00901034 /* ReminderModel.m in Sources */,
+				AD9914EE1CEFA1AA00649798 /* EvaluteViewController.m in Sources */,
+				ADE1D3551CECF8BE00882EDD /* HeightPickerViewController.m in Sources */,
+				ADBC28271D15DFAF00EF814F /* EvaluteFunc.m in Sources */,
+				ADA1B8011D004EF200901034 /* MedCellView.m in Sources */,
+				ADE1D35C1CED0C8F00882EDD /* GlucosePickerViewController.m in Sources */,
+				ADE1D35F1CED165C00882EDD /* CholesterolPickerViewController.m in Sources */,
+				AD985CD91CD144F900BE8807 /* RecordBMIViewController.m in Sources */,
+				ADD471841CD02D52006CCEB3 /* DairyViewController.m in Sources */,
+				AD0E2E6F1CDB0E4200C7B8E9 /* ProfileViewController.m in Sources */,
+				ADA1B7E61CFED63400901034 /* ReminderFunc.m in Sources */,
+				AD0663EB1D04898A003A95A7 /* ExerciseTimePickerViewController.m in Sources */,
+				ADD60EFE1CD19D04007349FF /* AddBMIRecordsViewController.m in Sources */,
+				ADF4176F1CE773C000BD8619 /* ReminderViewController.m in Sources */,
+				ADAF92821CF24A9900288C79 /* User.m in Sources */,
+				ADC3595F1D43D38600D0AE44 /* ProfileModel.m in Sources */,
+				ADD60F011CD799D7007349FF /* RootViewController.m in Sources */,
+				ADF4177E1CE7821700BD8619 /* AddMedicineReminderViewController.m in Sources */,
+				AD03477E1CF2419A006F89C2 /* DataModel.xcdatamodeld in Sources */,
+				AD0663E41D044149003A95A7 /* MealTypePickerViewController.m in Sources */,
+				ADCBDDF11CEC1AF3007B981E /* AgePickerViewController.m in Sources */,
+				ADCD29C91D4CF70300689950 /* RegisterViewController.m in Sources */,
+				ADC3595C1D43A4B200D0AE44 /* ProfileFunc.m in Sources */,
+				ADD4717B1CD029CA006CCEB3 /* GlobalFunc.m in Sources */,
+				ADD471411CD0275F006CCEB3 /* MainViewController.m in Sources */,
+				ADF417651CE722E800BD8619 /* TriangleGrayView.m in Sources */,
+				ADE1D3621CED23D700882EDD /* TriglyceridePickerViewController.m in Sources */,
+				ADCD29C51D4CCE3600689950 /* LoginViewController.m in Sources */,
 				ADD4713E1CD0275F006CCEB3 /* AppDelegate.m in Sources */,
+				ADE1D34E1CECF13600882EDD /* WaistlinePickerViewController.m in Sources */,
+				AD105F961D02F8A700B3A87B /* DairyModel.m in Sources */,
+				AD4275D61CFC136500B244EF /* SetViewController.m in Sources */,
+				ADD471891CD030A3006CCEB3 /* RecordDiabetesViewController.m in Sources */,
+				ADA1B8041D0151A800901034 /* DosagePickerViewController.m in Sources */,
+				ADF4177B1CE7790B00BD8619 /* RemindMeasurementViewController.m in Sources */,
 				ADD4713B1CD0275F006CCEB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,14 +972,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ADD471421CD0275F006CCEB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADD471431CD0275F006CCEB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADD471471CD0275F006CCEB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,23 +1067,33 @@
 		};
 		ADD471641CD02760006CCEB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADD4F588C0E318FCDF7D5CA /* Pods-DiabetesManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DiabetesManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Haoran.DiabetesManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		ADD471651CD02760006CCEB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8B2CD4FF1E4A4F8C0BA98A /* Pods-DiabetesManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DiabetesManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Haoran.DiabetesManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +1162,7 @@
 				ADD471651CD02760006CCEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADD471661CD02760006CCEB3 /* Build configuration list for PBXNativeTarget "DiabetesManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +1171,7 @@
 				ADD471681CD02760006CCEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADD471691CD02760006CCEB3 /* Build configuration list for PBXNativeTarget "DiabetesManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,8 +1180,22 @@
 				ADD4716B1CD02760006CCEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD03477C1CF2419A006F89C2 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD03477D1CF2419A006F89C2 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = AD03477D1CF2419A006F89C2 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ADD4712E1CD0275F006CCEB3 /* Project object */;
 }

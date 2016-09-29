@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bloodPressure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bmi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cholesterol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evaluteResults" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="fruitSituation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meatSituation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="realname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relativesSituation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="triglyceride" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="waistline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-9" positionY="36" width="128" height="270"/>
+    </elements>
+</model>
